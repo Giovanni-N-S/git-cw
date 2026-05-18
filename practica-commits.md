@@ -46,9 +46,9 @@ Algo sobre mí : Mi comida favorita es el mole verde o rojo
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. 
-2. 
-3. 
+1. Que es el SHA-1
+2. Que tipo de archivo es la extención .md
+3. Recordé como hacer commits
 
 ---
 
