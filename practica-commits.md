@@ -75,9 +75,9 @@ Algo sobre mí : Mi comida favorita es el mole verde o rojo
 
 - [ ] Hice `git init` sin ayuda
 - [ ] Entiendo para qué sirve el Staging Area
-- [ ] Escribí un mensaje de commit con formato Conventional Commits
-- [ ] Puedo ver el historial con `git log`
-- [ ] Completé todos los niveles de esta práctica
+- [x] Escribí un mensaje de commit con formato Conventional Commits
+- [x] Puedo ver el historial con `git log`
+- [x] Completé todos los niveles de esta práctica
 
 ---
 
