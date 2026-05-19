@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-sacale=1.0">
+        <meta name="author" content="Nicolas Sánchez Giovanni">
+        <meta name="description" content="Explicación del codigo en c">
+        <title>Title</title>
+    </head>
+    <body>
+        <h1><center>ACTIVIDAD 2</center></h1>
+        <hr>
+        <h2><center>Explicación del codigo en c</center></h2>
+        <h3>Codigo:</h3>
+        <pre>
+            <code>
+    #include &ltstdio.h&gt
+
+    int main() 
+    {
+        int edad;
+        printf("¿Cuántos años tienes? ");
+        scanf("%d", &edad);
+
+        if (edad >= 18) 
+        {
+            printf("Eres mayor de edad.\n");
+        } 
+        else 
+        {
+            printf("Eres menor de edad.\n");
+        }
+
+        return 0;
+    }
+            </code>
+        </pre>
+        <hr>
+        
+        <h4>Librerias</h4>
+        <p>Las librerías son archivos externos a los que se les hace referencia en un código con <code>#include</code>, estos contienen funciones predefinidas que agilizan el desarrollar programas.
+        <br>En este ejemplo la biblioteca usada es &ltstdio.h&gt <code></code> </p>
+        
+        <h4>Función principal: <code>int main()</code></h4>
+        <p>Este es el cuerpo principal del código donde se ve toda la lógica del programa</p>
+        
+        <h4>Definir variables</h4>
+        <p>Es importante definir las variables al inicio despues del <code>int main ()</code> así se lleva un mejor cotrol del programa y en caso de necesitar modificar algo es más facil de ubicar.</p>
+        
+        <h4>Funciones en el código</h4>
+        <p>Estas funciones <code>printf();scanf();if(){}else{}</code>provienen de la libreria ya mensionada </p>
+            <h5><code>printf();</code></h3>
+            <p>Esta se encarga que el texto entre comillas qeu se encuentre dentro de los parentesis se muestre en la pantalla</p>
+            <h5><code>scanf();</code></h5>
+            <p>Este se encarga que lo que se introdusca se almacene en la variable referenciada por el &</p>
+            <h5>if(){}else{}</h5>
+            <p>Comprueba si lo que se encuentra dentro del parentesis del <code>if</code> es verdadero, en caso de que lo sea se ejecuta el código que se encuentre inmediatamente despues, en caso de que sea falso se ejecutará lo que siga del <code>else</code></p>
+    </body>
+</html>
