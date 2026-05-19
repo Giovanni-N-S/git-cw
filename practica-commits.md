@@ -59,12 +59,12 @@ Algo sobre mí : Mi comida favorita es el mole verde o rojo
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` | inicializa un repositorio |
+| `git status` | muestra el estado de los archivos para el siguiente commit |
+| `git add .` | agrega los archivos de la carpeta para el proximo commit |
+| `git commit -m "..."` | confirma los elementos cargados para crear punto de guardado |
+| `git log --oneline` | muestra el historial de commits |
+| `git push` | Sube los commits a github |
 
 ---
 
