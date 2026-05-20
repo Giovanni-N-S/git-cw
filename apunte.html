@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-sacale=1.0">
+        <meta name="author" content="Nicolas Sánchez Giovanni">
+        <meta name="description" content="Actividad de repaso para tablas">
+
+        <title>Apunte</title>
+    </head>
+    <body>
+        <table style="width: 100%;">
+            <style>
+                table, th, td {border: 3px solid black;}
+            </style>
+            <caption>Apunte de etiquetas HTML</caption>
+            <colgroup>
+                <col span="3" style="width: auto;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Para que sirve</th>
+                    <th>Ejemplo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>&ltol&gt</code></td>
+                    <td>Sirve para crear listas ordenadas</td>
+                    <td><pre><code> 
+&ltol style="list-style-type: upper-alpha"&gt
+    &ltli&gtElemento 1&lt/li&gt
+    &ltli&gtElemento 2&lt/li&gt
+    &ltli&gtElemento 3&lt/li&gt
+&ltol&gt
+                    </code></pre></td>
+                </tr>
+                <tr>
+                    <td><code>&ltul&gt</code></td>
+                    <td>Sirve para crear listas ordenadas</td>
+                    <td><pre><code>
+&ltul style="list-style-type: square"&gt
+    &ltli&gtElemento 1&lt/li&gt
+    &ltli&gtElemento 2&lt/li&gt
+    &ltli&gtElemento 3&lt/li&gt
+&lt/ul&gt
+                    </code></pre></td>
+                </tr>
+                <tr>
+                    <td><code>&ltdl&gt</code></td>
+                    <td>Sirve para crear listas de definición</td>
+                    <td rowspan="3"><pre><code>
+&ltdl&gt    
+    &ltdt&gt Concepto &lt/dt&gt
+        &ltdd&gt 
+            Un concepto es una construcción mental básica del razonamiento humano,
+            es decir, una proyección mental que nos permite comprender, clasificar y comunicar 
+            nuestras experiencias. 
+        &lt/dd&gt
+    &ltdt&gt Definición &lt/dt&gt
+        &ltdd&gt 
+            Una definición es una explicación más o menos detallada de algún concepto,
+            término o relación, en la cual se incluyen sus aspectos principales y se brinda
+            también cierto contexto, con el fin de explicar de qué se habla lo más claramente
+            posible.  
+        &lt/dd&gt
+&lt/dl&gt
+                    </code></pre></td>
+                </tr>
+                <tr>
+                    <td><code>&ltdt&gt</code></td>
+                    <td>Sirve para crear un elemento como concepto a definir</td>
+                    
+                </tr>
+                <tr>
+                    <td><code>&ltdd&gt</code></td>
+                    <td>Sirve para crear un elemento como descripción</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
