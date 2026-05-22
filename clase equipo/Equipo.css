@@ -8,6 +8,10 @@
     body{ background-color: rgb(114, 154, 192);}
     table{background-color:  rgb(120, 134, 148);}
 }
+body{
+    overflow-y: scroll;
+    height:130vh;
+}
 *{
   font-family: Calibri;
   font-style:oblique;  
