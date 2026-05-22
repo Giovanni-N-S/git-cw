@@ -1,10 +1,16 @@
 @media only screen and (min-width: 700px)
 {
-    body{ background-color: rgb(194, 194, 194);}
-    table{ background-color:  rgb(194, 194, 194);}
+    body{ background-color: rgb(153, 189, 154);}
+    table{background-color:  rgb(119, 143, 120);}
+}
+@media only screen and (max-width: 700px)
+{
+    body{ background-color: rgb(114, 154, 192);}
+    table{background-color:  rgb(120, 134, 148);}
 }
 *{
-  font-family: Calibri;  
+  font-family: Calibri;
+  font-style:oblique;  
 }
 #ian{
     background-color:forestgreen;
@@ -58,6 +64,21 @@
     height: 40px;
 }
 table{
-    background-color: aliceblue;
     border: 7px, groove, rgb(163, 163, 163) ;
+}
+#contenedor-top{
+    height: 70px;
+    justify-items:end;
+    margin: 10px;
+}
+#titulo{
+    height: 0;
+    position: absolute;
+    margin: 0;
+    top: 25px;
+}
+.nota{
+    height: 0;
+    position: sticky;
+    top: 0;
 }
